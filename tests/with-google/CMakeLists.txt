@@ -23,6 +23,5 @@ target_link_libraries(gtest_test_version PRIVATE
 	helloworld
 )
 
-enable_testing()
 include(GoogleTest)
 gtest_discover_tests(gtest_test_version)

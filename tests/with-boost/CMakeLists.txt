@@ -16,5 +16,4 @@ target_link_libraries(test_version
     helloworld
 )
 
-enable_testing()
 add_test(test_version test_version)

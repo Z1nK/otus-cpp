@@ -13,6 +13,8 @@ set(CMAKE_CONFIG_PATH ${CMAKE_CURRENT_LIST_DIR}/cmake/configs)
 include(configuration)
 
 add_subdirectory(src)
+
+enable_testing()
 add_subdirectory(tests)
 
 set(CPACK_GENERATOR DEB)
